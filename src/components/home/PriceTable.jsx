@@ -6,7 +6,6 @@ import { PRICE_CARD_DATA } from '../common/Helper';
 import CommonPayParaText from '../common/CommonPayParaText';
 import CommonAmount from '../common/CommonAmount';
 import CommonPaybtn from '../common/CommonPaybtn';
-import CommonPayFeature from '../common/CommonPayFeature';
 
 const PriceTable = () => {
     return (

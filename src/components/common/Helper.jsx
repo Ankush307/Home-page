@@ -1,11 +1,11 @@
-import PartnersIcon from '../common/icons.svg/partners-icon.svg'
-import BluePartnerIcon from '../common/icons.svg/blue-partners.svg'
+import PartnersIcon from '../../assets/images/svg/partners-icon.svg'
+import BluePartnerIcon from '../../assets/images/svg/blue-partners.svg'
 import SwiperOne from '../../assets/images/png/swiper-img1.png'
 import SwiperTwo from '../../assets/images/png/swiper-img2.png'
 import SwiperThree from '../../assets/images/png/swiper-img3.png'
 import SwiperFour from '../../assets/images/png/swiper-img4.png'
-import CheckBox from '../common/icons.svg/checked-box.svg'
-import CancelBox from '../common/icons.svg/cancel-box.svg'
+import CheckBox from '../../assets/images/svg/checked-box.svg'
+import CancelBox from '../../assets/images/svg/cancel-box.svg'
 export const CARDS_DATA = [
     {
         imgSrc: PartnersIcon,

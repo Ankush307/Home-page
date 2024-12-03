@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { CARDS_DATA } from '../common/Helper';
 import SubHeading from '../common/SubHeading';
-import PrevArrow from '../common/icons.svg/prev-arrow.svg'
-import NextArrow from '../common/icons.svg/next-arrow.svg'
+import PrevArrow from '../../assets/images/svg/prev-arrow.svg'
+import NextArrow from '../../assets/images/svg/next-arrow.svg'
 
 const CustomSlider = () => {
     const settings = {
