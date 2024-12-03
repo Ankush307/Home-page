@@ -14,12 +14,12 @@ function App() {
         <Hero />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/AboutUS' element={<AboutPage />} />
+          <Route path='/about-us' element={<AboutPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
       <CommonHeading />
-      <CommonPara/>
+      <CommonPara />
     </>
   );
 }
