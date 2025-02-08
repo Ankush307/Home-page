@@ -1,18 +1,135 @@
-.mySwiper .swiper-pagination {
-    margin-top: 20px; 
-    position: unset;
+.head {
+  animation: headMove 1s ease-in-out infinite;
+}
+
+.right-arm {
+  transform-origin: left center;
+  animation: armSwingRight 1s ease-in-out infinite;
+}
+
+.left-arm {
+  transform-origin: right center;
+  animation: armSwingLeft 1s ease-in-out infinite;
+}
+
+.left-leg {
+  animation: legKickLeft 1.2s ease-in-out infinite;
+}
+
+.right-leg {
+  animation: legKickRight 1.2s ease-in-out infinite;
+}
+
+@keyframes headMove {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
   }
 
-  .mySwiper .swiper-pagination-bullet {
-    background-color: #43BBFF; 
-    opacity:43% ;
+  50% {
+    transform: translateY(-10px) rotate(5deg);
   }
-  
-  .mySwiper .swiper-pagination-bullet-active {
-    background-color: #43BBFF; 
-    opacity: 100%;
-    width: 31px;
-    height: 9px;
-    border-radius: 24px;
+}
+
+@keyframes armSwingLeft {
+
+  0%,
+  100% {
+    transform: rotate(-45deg);
   }
-  
+
+  50% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes armSwingRight {
+
+  0%,
+  100% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(-30deg);
+  }
+}
+
+@keyframes legKickLeft {
+
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes legKickRight {
+
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+}
+
+
+/*================================================================== */
+.dancer-head {
+  animation: spin 2s linear infinite;
+}
+
+.dancer-arm {
+  animation: Arms 3s ease-in-out infinite;
+}
+
+.dancer-leg {
+  animation: discoLegs 0.8s steps(4) infinite;
+}
+
+.body {
+  animation: bend 2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Arms {
+
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes discoLegs {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+}
