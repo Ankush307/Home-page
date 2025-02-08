@@ -9,7 +9,7 @@ const DanceParty = () => {
 
     return (
         <div className='bg-black min-h-screen flex items-center justify-center flex-col'>
-            <button onClick={toggleDance} className="absolute top-10 bg-white py-2 px-6 rounded-lg font-bold text-lg shadow-lg focus:scale-110 transform transition-all duration-300 ease-in-out ">Change Dance Pose </button>
+            <button onClick={toggleDance} className={`absolute top-10 bg-white py-2 px-6 rounded-lg font-bold text-lg shadow-lg transform transition-all duration-300 ease-in-out ${isActive ? 'bg-lime-600 text-white' : ''} `}>Change Dance Pose </button>
             <h1 className="text-white font-extrabold text-6xl mb-12"> DANCE PARTY!</h1>
             <div className="w-full flex items-center justify-center flex-col">
                 {/* Head */}
