@@ -18,9 +18,9 @@ const Gallery = () => {
             {clickedImage && (
                 <div className='fixed inset-0 bg-black/90 flex justify-center items-center z-50 px-5'>
                     <div className='relative'>
-                        <img className='pointer-events-none rounded-2xl object-center max-h-[500px] ' src={clickedImage} alt='image' />
-                        <div className="absolute top-1 right-1 text-white font-bold p-2 bg-red-500 w-[40px] rounded-full cursor-pointer" onClick={() => setClickedImage(null)}>
-                            <img src="/assets/images/cross-icon.png" alt="cross" />
+                        <img className='cursor-default rounded-2xl object-center max-h-[500px]' src={clickedImage} alt='image' />
+                        <div className="absolute top-1 right-1 max-w-[40px] max-h-[40px] cursor-pointer" onClick={() => setClickedImage(null)}>
+                            <img className='w-full h-full' src="/assets/images/cross-icon.webp" alt="cross" />
                         </div>
                     </div>
                 </div>
