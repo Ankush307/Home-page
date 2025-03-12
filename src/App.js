@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<DanceParty />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path='dock' element={<CustomDock />} />
-          <Route path='mac' element={<Services />} />
+          <Route path='services' element={<Services />} />
         </Routes>
       </BrowserRouter>
     </>

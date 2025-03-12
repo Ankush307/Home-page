@@ -50,19 +50,19 @@ const Services = () => {
                 </div>
                 <div className="max-xl:px-[30px] max-sm:px-4">
                     <div className="flex md:pt-[52px] sm:pt-[42px] pt-[44px] md:gap-5 max-[700px]:flex-col items-center max-[700px]:justify-center min-[700px]:justify-between md:justify-start relative">
-                        <img src={"/assets/images/home/svg/services-swipe-arrow.svg"} alt="arrow"
+                        <img src="/assets/images/svg/servies-swipe-arrow.svg" alt="arrow"
                             className="w-[20px] h-[20px] absolute lg:top-[10%] md:top-[10.8%] sm:top-6 top-6 left-[94px]" />
-                        <div className="absolute sm:border-t-[5px] border-t-[3px] border-t-orange w-full md:top-[52px] top-[42px] left-0"></div>
-                        <div className="absolute sm:border-b-[5px] border-b-[3px] border-b-orange max-[700px]:hidden w-full md:top-[52px] bottom-[0px] left-0"></div>
+                        <div className="absolute sm:border-t-[5px] border-t-[3px] border-t-gray-500 w-full md:top-[52px] top-[42px] left-0"></div>
+                        <div className="absolute sm:border-b-[5px] border-b-[3px] border-b-gray-500 max-[700px]:hidden w-full md:top-[52px] bottom-[0px] left-0"></div>
                         <div className="max-md:max-w-[580px] flex items-center justify-center max-h-[282px] relative w-full">
                             <div className="min-[1083px]:!py-[66px] min-[873px]:!py-[46px] md:py-7 sm:py-12 py-6 w-full">
                                 <p className="md:text-2xl sm:text-xl md:max-w-[674px] sm:max-w-[397px] max-w-[323px] leading-158"> {SERVICES_LIST[activeIndex].descriptionTwo}{" "}</p>
                             </div>
-                            <div className="border-b-[3px] border-b-orange w-full absolute bottom-0 min-[700px]:hidden"></div>
+                            <div className="border-b-[3px] border-b-gray-500 w-full absolute bottom-0 min-[700px]:hidden"></div>
                         </div>
                         <div className="h-full relative z-[1]">
                             <div className="flex gap-4 items-center">
-                                <img className="lg:w-[700px] md:w-[432px] min-[700px]:w-[377px] max-sm:h-[274px] h-[290px] object-cover" src={SERVICES_LIST[activeIndex].cardImg} alt="services img" />
+                                <img className="lg:w-[700px] md:w-[432px] min-[700px]:w-[377px] max-sm:h-[274px] max-sm:w-[343px] h-[290px] object-cover" src={SERVICES_LIST[activeIndex].cardImg} alt="services img" />
                             </div>
                         </div>
                     </div>
