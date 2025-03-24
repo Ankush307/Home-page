@@ -66,7 +66,7 @@ export const SERVICES_LIST = [
         cardImg: "/assets/images/webp/pet-five.webp",
     },
     {
-        number: "01.",
+        number: "06.",
         title: "Earthworks",
         description:
             "We offer a wide range of earthworks, from leveling sites to foundation work and preparing construction sites",
@@ -75,7 +75,7 @@ export const SERVICES_LIST = [
         cardImg: "/assets/images/webp/pet-three.webp",
     },
     {
-        number: "04.",
+        number: "07.",
         title: "Earthworks",
         description:
             "We offer a wide range of earthworks , from leveling sites to foundation work and preparing construction sites",
